@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Voice Box</title>
+ 
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rosario:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Voice Box</a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#Tools" class="navbar-link">Tools</a>
+          </li>
+          
+
+          <li>
+            <a href="#" class="navbar-link">About Us</a>
+          </li>
+
+          
+
+       
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">
+              Speech to Text <br/>
+              <span class="span" >Voice Typing & Transcription</span>
+            </h1>
+
+            <p class="section-text">
+              Take notes with your voice for free, or automatically transcribe audio. Secure, accurate & super fast. 
+            </p>
+
+            <a href="#" class="btn">
+              <span id="hoverspan" class="span">Checkout</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <div class="wrapper">
+            <div class="hero-banner-1 img-holder" style="--width: 400; --height: 550;">
+              <img src="./assets/images/hero-banner-1.jpg" width="400" height="550"
+                alt="view of assortment of decor for interior shop" class="img-cover">
+            </div>
+
+            <div class="hero-banner-2 img-holder" style="--width: 500; --height: 850;">
+              <img src="./assets/images/trans.png" width="500" height="850" alt="ceramic craft ware"
+                class="img-cover">
+            </div>
+
+            <img src="./assets/images/hero-shape.png" width="570" height="676" alt="laves" class="shape">
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+            <figure class="about-banner about-banner-1 img-holder" style="--width: 600; --height: 480;">
+              <img src="./assets/images/about-1.jpg" width="600" height="480" loading="lazy" alt="craftman in workshop"
+                class="img-cover">
+            </figure>
+
+          </div>
+
+          <figure class="about-banner about-banner-2 " style="--width: 500; --height: 700;">
+            <img src="./assets/images/txt.png" width="500" height="700" loading="lazy"
+              alt="interior view of a leather shop selling belts brac" class="img-cover">
+          </figure>
+
+          <div class="about-content">
+
+            <h3 class="h2 section-title">Innovative Design is Our Passion</h3>
+
+            <p class="section-text">
+              Speechnotes is a reliable and secure web-based speech-to-text tool that enables you to quickly and accurately transcribe your audio
+            </p>
+
+            <a href="#" class="btn">
+              <span class="span">Read More</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+            <figure class="about-banner about-banner-3 img-holder" style="--width: 850; --height: 420;">
+              <img src="./assets/images/language.jpg" width="850" height="420" loading="lazy"
+                alt="concentrated artisans in workshop" class="img-cover">
+            </figure>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COLLECTION
+      -->
+
+      <section  id="Tools" class="section collection text-center" aria-labelledby="collection-label">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="collection-label">
+            Our Portfolio of Complementary Speech-To-Text Tools Includes:
+          </h2>
+
+          <p class="section-text">
+            Speech to Text online notepad. Professional, accurate & free speech recognizing text editor. Distraction-free, fast, easy to use web app for dictation & typing.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="collection-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/voice.gif" width="500" height="550" loading="lazy"
+                    alt="voice to text" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Voice to Text Tool</h3>
+
+                  <p class="card-text">
+                    Start taking notes, on our online voice-enabled notepad right away, for free.
+                  </p>
+
+                  <a href="./voice to text/voice_text.html" class="btn">
+                    <span class="span">Click Here</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/textvoi.gif" width="500" height="550" loading="lazy"
+                    alt="Leather Craft" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Text to Voice Tool</h3>
+
+                  <p class="card-text">
+                    Let your text speak for itself - convert words into lifelike audio effortlessly.
+                  </p>
+
+                  <a href="./Text to speech/index.html" class="btn">
+                    <span class="span">Click Here</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/Translation.gif" width="500" height="550" loading="lazy"
+                    alt="Home Decoration" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Language Translator</h3>
+
+                  <p class="card-text">
+                    Unlock a world of communication possibilities with our powerful language translation tool.
+                  </p>
+
+                  <a href="./Language Translator App in JavaScript/index.html" class="btn">
+                    <span class="span">Click here</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="feature" aria-label="features">
+
+        <div class="feature-banner has-bg-image has-after"
+          style="background-image: url('./assets/images/voc.gif')">
+        </div>
+
+        <div class="section feature-content">
+          <div class="container">
+
+            <h2 class="h2 section-title">
+              Key Advantages
+            </h2><br>
+
+            <!-- <p class="section-text">
+              Curabitur porttitor nulla vitae purus eleifend feugiat. Quisque faucibus sapien, ut porttitor lorem.
+            </p> -->
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-1.svg" width="45" height="45" loading="lazy"
+                      alt="review icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">95% Accurate</h3>
+
+                    <p class="card-text">
+                      VoiceBox is powered by the leading most accurate speech recognition AI engines by Google & Microsoft.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-2.svg" width="45" height="45" loading="lazy"
+                      alt="badge icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">Super Private & Secure!</h3>
+
+                    <p class="card-text">
+                      Super private - no human handles, sees or listens to your recordings! In addition, we take great measures to protect your privacy.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-3.svg" width="45" height="45" loading="lazy"
+                      alt="money bag icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">Saves you money</h3>
+
+                    <p class="card-text">
+                      Speechnotes dictation notepad is completely free.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <p>
+              We always check - and make sure we still use the best. Accuracy in English is very good and can easily reach 95% accuracy for good quality dictation or recording.
+            </p>
+
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi" aria-label="testimonials">
+        <div class="container">
+
+          <div class="testi-card">
+            <h1 style="font-size: 50px;">Voice Box</h1>
+            <p class="card-text">
+              For dictation, the recording & recognition - is delegated to and done by the browser (Chrome / Edge) or operating system (Android).Speechnotes provides an efficient and user-friendly dictation and transcription experience.
+            </p>
+
+            <p class="client-name">Sanjeev Sai Sasank</p>
+
+            <br>
+
+            <img src="./assets/images/quote.svg" width="50" height="50" loading="lazy" class="icon" alt="quote">
+
+          </div>
+
+        </div>
+      </section>
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="section footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Voice Box</a>
+
+          <p class="footer-text">
+            Speechnotes is the go-to tool for anyone who needs fast, accurate & private transcription.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+        </ul>
+
+        <ul class="footer-list">
+
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Get in Touch</p>
+
+           
+          </p>
+          <p id="contact">
+            <a href="mailto:sanjeevsaisasank9@gmail.com">sanjeevsaisasank9@gmail.com</a>
+            Mobile Number : +91 6304626331
+          </p>
+          
+
+        
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          Copyright 2023 Sanjeev Sai. All Right Reserved
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
